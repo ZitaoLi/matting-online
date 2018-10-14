@@ -1,0 +1,17 @@
+#input-img {
+    max-width: 400px;
+}
+
+#input-upload {
+    width: 200px;
+}
+/* 图片背景纹理 */
+.img-container {
+    font-size: 0;
+    background-image: -webkit-gradient(linear, 0 0, 100% 100%, color-stop(.25, #ccc), color-stop(.25, transparent), to(transparent)),-webkit-gradient(linear, 0 100%, 100% 0, color-stop(.25, #ccc), color-stop(.25, transparent), to(transparent)),-webkit-gradient(linear, 0 0, 100% 100%, color-stop(.75, transparent), color-stop(.75, #ccc)),-webkit-gradient(linear, 0 100%, 100% 0, color-stop(.75, transparent), color-stop(.75, #ccc));
+    background-size: 10px 10px;
+}
+
+.err {
+    border: 1px solid red;
+}

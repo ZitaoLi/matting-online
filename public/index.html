@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="css/app.css" rel="stylesheet" type="text/css"/>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/app.js"></script>
+    <script></script>
+</head>
+<body>
+    <!-- 用于输入本地文件和远程URL -->
+    <input type="file" id="input-upload" accept=".jpg,.jpeg,.png,.gif,.svg" placeholder="上传本地图片" />
+    <input type="text" id="input-url" placeholder="输入图片URL"></input>
+    <!-- 图片处理前后展示 -->
+    <p>原图：</p>
+    <div class="img-container"><img id="input-img"></div>
+    <p>画布：</p>
+    <div class="img-container">
+        <canvas id="my-canvas"></canvas>
+    </div>
+    <a href="void(0);" id="download">点我下载</a>
+</body>
+</html>
